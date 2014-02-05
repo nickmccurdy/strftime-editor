@@ -5,7 +5,7 @@ var output_element = document.querySelector("#output");
 
 // Update the output field with the current strftime results
 var update = function () {
-  output_element.innerHTML = strftime(input_element.value);
+  output_element.innerHTML = strftime(input_element.value) || "none";
 };
 
 // Update after any changes in the input (for newer browsers)
