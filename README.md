@@ -1,2 +1,2 @@
 # [strftime Editor](http://nicolasmccurdy.github.io/strftime-editor)
-A simple strftime string editor, with live previews and support for most of the strftime features in C and Ruby.
+A simple strftime string editor. It shows a live preview and supports most of the strftime features in C and Ruby.
