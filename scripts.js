@@ -16,3 +16,6 @@ input_element.addEventListener("keypress", update);
 
 // Force an update every second (to keep the output up to date as time passes)
 setInterval(update, 1000);
+
+// Trigger an initial update immediately
+update();
